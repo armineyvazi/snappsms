@@ -30,6 +30,7 @@ func main() {
 			color.Green("URL", resp.Request.URL)
 			color.Green("HOST", resp.Request.Host)
 			color.Green("TLS", resp.Request.TLS)
+			fmt.Println()
 			fmt.Println("_______________________________")
 
 		}
